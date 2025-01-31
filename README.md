@@ -1,5 +1,9 @@
 # Note Sage
 
+<p align="center">
+  <img src="things/noteSage.png">
+</p>
+
 A simple yet powerful **Terminal User Interface (TUI)** and **Command-Line Interface (CLI)** note-taking app written in Rust. Manage your tasks with ease, featuring tags, due dates, priorities, and more. Fully customizable via Lua configuration!
 
 
