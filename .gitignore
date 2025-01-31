@@ -1,2 +1,4 @@
 /target
 /tasks.json
+/Cargo.toml
+/.gitignore
