@@ -51,14 +51,15 @@ A simple yet powerful **Terminal User Interface (TUI)** and **Command-Line Inter
 #### TUI Mode
 
 Launch the app without arguments to enter TUI mode:
-    ```bash
+
+    ```
     noteSage
     ```
 #### CLI Mode
 
 use the app from command line.
 
-    ```bash
+    ```
     noteSage add "Buy groceries" --tags "shopping" --due "2024-12-31" --priority high
     noteSage list
     noteSage delete --id 1
@@ -69,7 +70,7 @@ there is more functions use help to see all of them.
 ### Configuration
 Customize the app using a Lua config file (~/.config/noteSage/config.lua). Here’s an example:
 
-    ```Lua
+    ```
     return {
         ui = {
             colors = {
