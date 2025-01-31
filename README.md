@@ -52,48 +52,49 @@ A simple yet powerful **Terminal User Interface (TUI)** and **Command-Line Inter
 
 Launch the app without arguments to enter TUI mode:
 
-    ```
-    noteSage
-    ```
+```bash
+notesage
+```
+
 #### CLI Mode
 
 use the app from command line.
 
-    ```
-    noteSage add "Buy groceries" --tags "shopping" --due "2024-12-31" --priority high
-    noteSage list
-    noteSage delete --id 1
-    ```
+```bash
+noteSage add "Buy groceries" --tags "shopping" --due "2024-12-31" --priority high 
+noteSage list                                                                     
+noteSage delete --id 1                                                            
+```
+
 there is more functions use help to see all of them.
 
 ---
 ### Configuration
 Customize the app using a Lua config file (~/.config/noteSage/config.lua). Here’s an example:
 
-    ```
-    return {
-        ui = {
-            colors = {
-                primary = "#3498db", -- Blue
-                warning = "#f39c12", -- Orange
-                error = "#e74c3c",   -- Red
-                background = "#34495e" -- Dark blue
-            }
-        },
-        keybindings = {
-            quit = "q",
-            new_task = "a",
-            mark_done = "D",
-            delete_task = "d",
-            archive_tasks = "r",
-            navigate_up = "k",
-            navigate_down = "j",
-            switch_tab_left = "h",
-            switch_tab_right = "l"
-        }
+```lua
+return {                                        
+    ui = {                                      
+        colors = {                              
+            primary = "#3498db", -- Blue        
+            warning = "#f39c12", -- Orange      
+            error = "#e74c3c",   -- Red         
+            background = "#34495e" -- Dark blue 
+        }                                       
+    },                                          
+    keybindings = {                             
+        quit = "q",                             
+        new_task = "a",                         
+        mark_done = "D",                        
+        delete_task = "d",                      
+        archive_tasks = "r",                    
+        navigate_up = "k",                      
+        navigate_down = "j",                    
+        switch_tab_left = "h",                  
+        switch_tab_right = "l"                  
     }
-    ```
-
+}
+```
 ---
 ### Contributing
 
