@@ -547,21 +547,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-todo"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "clap",
- "crossterm",
- "directories",
- "mlua",
- "ratatui",
- "serde",
- "serde_json",
- "thiserror",
-]
-
-[[package]]
 name = "rustc-hash"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -729,6 +714,21 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "todoSage"
+version = "0.6.16"
+dependencies = [
+ "chrono",
+ "clap",
+ "crossterm",
+ "directories",
+ "mlua",
+ "ratatui",
+ "serde",
+ "serde_json",
+ "thiserror",
 ]
 
 [[package]]

@@ -1,6 +1,6 @@
 [package]
-name = "rust-todo"
-version = "0.1.0"
+name = "todoSage"
+version = "0.6.16"
 edition = "2021"
 
 [dependencies]
